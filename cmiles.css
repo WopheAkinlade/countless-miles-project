@@ -5,9 +5,9 @@
 .about-us-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.lists > ul {
+.about-us-div > ul {
     list-style: none;
 }
