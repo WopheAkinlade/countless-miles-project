@@ -1,0 +1,13 @@
+.address-div {
+    width: 250px;
+}
+
+.about-us-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lists > ul {
+    list-style: none;
+}
