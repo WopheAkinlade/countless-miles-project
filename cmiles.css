@@ -1,12 +1,52 @@
-.head-div {
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+.header {
     width: 100%;
-    
+    background-image: url(/assets/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .head-div > h3 {
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.head-div {
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+#header-box {
+    font-size: 17px;
+    position: relative;
+    top: 140px;
+}
+
+#header-box > p {
+    font-size: larger;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
 }
 
 nav > button {
     background-color: transparent;
     height: fit-content;
     padding: 2ex;
+    color: white;
+    border: solid 1px white;
+}
+
+#whitebox {
+    height: 8px;
+    background-color: white;
+    width: 50px;
 }
 .address-div {
     width: 250px;
