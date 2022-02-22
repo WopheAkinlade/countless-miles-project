@@ -9,9 +9,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* .head-div > h3 {
-    font-family: 'Times New Roman', Times, serif;
-} */
+nav > p {
+    font-size: 17px;
+    font-weight: 400;
+}
 
 .head-div {
     color: white;
