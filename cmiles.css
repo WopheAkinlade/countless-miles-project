@@ -1,3 +1,13 @@
+.head-div {
+    width: 100%;
+    
+}
+
+nav > button {
+    background-color: transparent;
+    height: fit-content;
+    padding: 2ex;
+}
 .address-div {
     width: 250px;
 }
@@ -6,8 +16,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
 }
 
 .about-us-div > ul {
     list-style: none;
 }
+
