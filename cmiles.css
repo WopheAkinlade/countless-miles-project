@@ -50,6 +50,26 @@ nav > button {
     background-color: white;
     width: 50px;
 }
+
+.body-div1 {
+    background-image: url();
+    display: flex;
+    /*used to center the forepage*/
+    width: 90%;
+    margin: auto;
+}
+
+#green-button {
+    background-color: rgb(2, 133, 133);
+    color: #fff;
+    height: 50px;
+    padding-right: 5ex;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    width: 27ex;
+}
+
 .address-div {
     width: 250px;
 }
