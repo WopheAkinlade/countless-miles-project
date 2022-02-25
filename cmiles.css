@@ -70,6 +70,25 @@ nav > button {
     width: 27ex;
 }
 
+/* .img-box {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 3px 3px rgba(0, 0, 0, 0.19);
+
+} */
+
+.curate {
+    position: relative;
+    bottom: 30px;
+}
+
+p.curate {
+    color: rgb(85, 83, 83);
+}
+
+#flexbox2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .address-div {
     width: 250px;
 }
