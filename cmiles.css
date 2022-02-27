@@ -99,6 +99,17 @@ p.curate {
     justify-content: space-evenly;
 }
 
+.sub-div2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-div2 p a {
+    color: teal;
+}
+
 .address-div {
     width: 250px;
 }
