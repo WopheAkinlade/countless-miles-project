@@ -87,6 +87,13 @@ p.curate {
     color: rgb(85, 83, 83);
 }
 
+.img-box {
+    width: 25%;
+    /* Shows border width
+     border: 5px solid black;
+    */
+}
+
 #flexbox2 {
     display: flex;
     justify-content: space-evenly;
