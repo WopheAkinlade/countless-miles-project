@@ -55,7 +55,10 @@ nav > button {
 }
 
 .body-div1 {
-    background-image: url();
+    background-image: url(/assets/contact_map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     display: flex;
     /*used to center the forepage*/
     width: 90%;
@@ -63,7 +66,7 @@ nav > button {
 }
 
 #green-button {
-    background-color: rgb(2, 133, 133);
+    background-color: #039785;
     color: #fff;
     height: 50px;
     padding-right: 5ex;
@@ -78,25 +81,41 @@ nav > button {
 
 } */
 
-.curate {
+h3.curate {
     position: relative;
-    bottom: 30px;
+    bottom: 5px;
 }
 
 p.curate {
     color: rgb(85, 83, 83);
+    position: relative;
+    bottom: 30px;
 }
 
 .img-box {
-    width: 25%;
+    width: 20%;
     /* Shows border width
-     border: 5px solid black;
+    border: 5px solid black;
     */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 10px;
+    height: 45ex;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+#flexbox1 {
+    position: relative;
+    bottom: 30px;
 }
 
 #flexbox2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: relative;
+    left: 30px;
 }
 
 .sub-div2 {
@@ -106,8 +125,13 @@ p.curate {
     justify-content: space-between;
 }
 
-.sub-div2 p a {
+.sub-div2 a {
     color: teal;
+}
+
+.body-div3 {
+    width: 90%;
+    margin: auto;
 }
 
 .address-div {
