@@ -157,7 +157,7 @@ p.curate {
     color: gray;
 }
 
-#text-div > button {
+#text-div  button {
     color: #fff;
     background-color: #039785;
     border: none;
@@ -171,6 +171,25 @@ p.curate {
     height: 410px;
     padding: 10px;
     background-color: white;
+}
+
+.body-div4 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f8f7;
+    height: 300px;
+}
+
+.body-div4 button {
+    background-color: white;
+    color: #039785;
+    height: 58px;
+    width: 220px;
+    border: none;
 }
 
 .address-div {
