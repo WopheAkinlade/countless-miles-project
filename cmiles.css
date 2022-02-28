@@ -132,6 +132,40 @@ p.curate {
 .body-div3 {
     width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/contact_map.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#centred-div {
+    display: flex;
+    justify-content: center;
+}
+
+#text-div {
+    width: 45ex
+}
+
+#text-div > p {
+    font-size: 15px;
+    color: gray;
+}
+
+#text-div > button {
+    color: #fff;
+    background-color: #039785;
+    border: none;
+    
+}
+
+#img-div {
+    width: 400px;
+    height: 410px;
+    padding: 10px;
+    background-color: white;
 }
 
 .address-div {
