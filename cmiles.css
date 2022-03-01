@@ -203,8 +203,9 @@ p.curate {
 .about-us-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 100px;
+  width: 90%;
 }
 
 .about-us-div ul {
