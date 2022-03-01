@@ -198,6 +198,7 @@ p.curate {
 
 .address-div {
   width: 250px;
+
 }
 
 .about-us-div {
@@ -206,6 +207,7 @@ p.curate {
   justify-content: space-between;
   margin-bottom: 100px;
   width: 90%;
+  margin: auto;
 }
 
 .about-us-div ul {
