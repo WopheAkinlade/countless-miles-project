@@ -191,6 +191,17 @@ p.curate {
     border: none;
 }
 
+.contact-us-div {
+    width: 90%;
+    margin: auto;
+    margin-top: 46px;
+}
+
+.contact-us-div ul {
+    line-height: 25px;
+    font-size: 14px;
+}
+
 .address-div {
     width: 250px;
 }
@@ -202,7 +213,18 @@ p.curate {
 
 }
 
-.about-us-div > ul {
+.about-us-div  ul {
     list-style: none;
 }
 
+#subscribe {
+    width: 150px;
+}
+
+.contact-us-div > p{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: rgb(104, 103, 103);
+    text-align: center;
+    font-size: 14px;
+}
