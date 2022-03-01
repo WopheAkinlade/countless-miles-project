@@ -1,230 +1,244 @@
 body {
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
+}
 
 .header {
-    width: 100%;
-    background-image: url(/assets/Rectangle.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  background-image: url(/assets/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav > p {
-    font-size: 17px;
-    font-weight: 400;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .head-div {
-    color: white;
-    /*used to center the forepage*/
-    width: 90%;
-    margin: auto;
+  color: white;
+  /*used to center the forepage*/
+  width: 90%;
+  margin: auto;
 }
 #header-box {
-    font-size: 17px;
-    position: relative;
-    top: 140px;
+  font-size: 17px;
+  position: relative;
+  top: 140px;
 }
 
 #header-box > p {
-    font-size: larger;
+  font-size: larger;
 }
 
 nav {
-    display: flex; 
-    justify-content: space-between;
-    position: relative;
-    top: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 40px;
 }
 
 nav > button {
-    background-color: transparent;
-    height: 7ex;
-    width: 170px;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-    border: solid 1px white;
+  background-color: transparent;
+  height: 7ex;
+  width: 170px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  border: solid 1px white;
 }
 
 #whitebox {
-    height: 8px;
-    background-color: white;
-    width: 50px;
+  height: 8px;
+  background-color: white;
+  width: 50px;
 }
 
 .body-div1 {
-    background-image: url(/assets/contact_map.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    display: flex;
-    /*used to center the forepage*/
-    width: 90%;
-    margin: auto;
+  background-image: url(/assets/contact_map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  /*used to center the forepage*/
+  width: 90%;
+  margin: auto;
 }
 
 #green-button {
-    background-color: #039785;
-    color: #fff;
-    height: 50px;
-    padding-right: 5ex;
-    text-align: center;
-    padding: 10px;
-    border: none;
-    width: 27ex;
+  background-color: #039785;
+  color: #fff;
+  height: 50px;
+  padding-right: 5ex;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  width: 27ex;
 }
 
-/* .img-box {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 3px 3px rgba(0, 0, 0, 0.19);
-
-} */
-
 h3.curate {
-    position: relative;
-    bottom: 5px;
+  position: relative;
+  bottom: 5px;
 }
 
 p.curate {
-    color: rgb(85, 83, 83);
-    position: relative;
-    bottom: 30px;
+  color: rgb(85, 83, 83);
+  position: relative;
+  bottom: 30px;
 }
 
 .img-box {
-    width: 20%;
-    /* Shows border width
+  width: 20%;
+  /* Shows border width
     border: 5px solid black;
     */
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    padding: 10px;
-    height: 45ex;
-    background-color: #fff;
-    font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding: 10px;
+  height: 45ex;
+  background-color: #fff;
+  font-size: 13px;
 }
 
 #flexbox1 {
-    position: relative;
-    bottom: 30px;
+  position: relative;
+  bottom: 30px;
 }
 
 #flexbox2 {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    left: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 30px;
 }
 
 .sub-div2 {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sub-div2 a {
-    color: teal;
+  color: teal;
 }
 
 .body-div3 {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/assets/contact_map.png);
-    background-position: 50%;
-    background-repeat: no-repeat;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/contact_map.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 #centred-div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #text-div {
-    width: 45ex;
-    position: relative;
-    left: 35px;
-    top: 70px;
+  width: 45ex;
+  position: relative;
+  left: 35px;
+  top: 70px;
 }
 
 #text-div > p {
-    font-size: 15px;
-    color: gray;
+  font-size: 15px;
+  color: gray;
 }
 
-#text-div  button {
-    color: #fff;
-    background-color: #039785;
-    border: none;
-    text-align: center;
-    height: 50px;
-    width: 230px;
+#text-div button {
+  color: #fff;
+  background-color: #039785;
+  border: none;
+  text-align: center;
+  height: 50px;
+  width: 230px;
 }
 
 #img-div {
-    width: 400px;
-    height: 410px;
-    padding: 10px;
-    background-color: white;
+  width: 400px;
+  height: 410px;
+  padding: 10px;
+  background-color: white;
 }
 
 .body-div4 {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #f2f8f7;
-    height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f2f8f7;
+  height: 350px;
 }
 
 .body-div4 button {
-    background-color: white;
-    color: #039785;
-    height: 58px;
-    width: 220px;
-    border: none;
+  background-color: white;
+  color: #039785;
+  height: 58px;
+  width: 220px;
+  border: none;
 }
 
 .contact-us-div {
-    width: 90%;
-    margin: auto;
-    margin-top: 46px;
+  width: 100%;
+  margin: auto;
+  margin-top: 46px;
 }
 
 .contact-us-div ul {
-    line-height: 25px;
-    font-size: 14px;
+  line-height: 25px;
+  font-size: 14px;
 }
 
 .address-div {
-    width: 250px;
+  width: 250px;
 }
 
 .about-us-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
 }
 
-.about-us-div  ul {
-    list-style: none;
+.about-us-div ul {
+  list-style: none;
 }
 
 #subscribe {
-    width: 150px;
+  width: 20%;
 }
 
-.contact-us-div > p{
-    margin-top: 45px;
-    margin-bottom: 45px;
-    color: rgb(104, 103, 103);
-    text-align: center;
-    font-size: 14px;
+.contact-us-div > p {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: rgb(104, 103, 103);
+  text-align: center;
+  font-size: 14px;
+}
+
+#subscribe h5 {
+
+}
+
+#subscribe > p > a {
+    text-decoration: none;
+    color: rgb(104, 103, 103);;
+}
+
+#subscribe > button {
+  color: lightgray;
+  background-color: white;
+  border: 0.5px solid black;
+  height: 3em;
+  width: 20em;
+  text-align: left;
+  border: 1px solid gray;
+  border-radius: 3px;
 }
