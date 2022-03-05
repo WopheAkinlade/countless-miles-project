@@ -30,11 +30,11 @@ nav > p {
 
 #white-button {
   background-color: white;
-  color: teal;
-  height: 5ex;
-  padding-right: 3ex;
+  color: #039785;
+  height: 45px;
+  font-size: 11px;
   border: none;
-  padding-left: 3ex;
+  width: 180px;
 }
 
 #header-box > p {
