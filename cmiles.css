@@ -123,9 +123,16 @@ p.curate {
   left: 30px;
 }
 
+.body-div2 > p {
+  position: relative;
+  bottom: 35px;
+  color: #666;
+  font-size: 14px;
+  line-height: 21px;
+}
+
 .sub-div2 {
-  width: 90%;
-  margin: auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
