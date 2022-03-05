@@ -22,9 +22,19 @@ nav > p {
   margin: auto;
 }
 #header-box {
-  font-size: 17px;
+  font-size: 20px;
   position: relative;
   top: 140px;
+  line-height: 25px;
+}
+
+#white-button {
+  background-color: white;
+  color: teal;
+  height: 5ex;
+  padding-right: 3ex;
+  border: none;
+  padding-left: 3ex;
 }
 
 #header-box > p {
