@@ -10,6 +10,12 @@ body {
   background-size: cover;
 }
 
+nav > h1 {
+  font-size:35px;
+  position: relative;
+  bottom: 15px;
+}
+
 nav > p {
   font-size: 17px;
   font-weight: 400;
