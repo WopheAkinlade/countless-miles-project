@@ -73,6 +73,10 @@ nav > button {
   /*used to center the forepage*/
   width: 90%;
   margin: auto;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #green-button {
@@ -207,6 +211,8 @@ p.curate {
 .body-div3 {
   width: 90%;
   margin: auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,7 +230,7 @@ p.curate {
   width: 45ex;
   position: relative;
   left: 35px;
-  top: 70px;
+  top: 80px;
 }
 
 #text-div > p {
@@ -239,6 +245,7 @@ p.curate {
   text-align: center;
   height: 50px;
   width: 230px;
+  border-radius: 5%;
 }
 
 #img-div {
@@ -246,6 +253,7 @@ p.curate {
   height: 410px;
   padding: 10px;
   background-color: white;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 7%);
 }
 
 .body-div4 {
