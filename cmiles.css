@@ -405,6 +405,14 @@ p.curate {
 
 #subscribe {
   width: 20%;
+  position: relative;
+}
+
+.svg-div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .contact-us-div > p {
@@ -420,8 +428,7 @@ p.curate {
     color: rgb(104, 103, 103);;
 }
 
-#subscribe > button {
-    color: lightgray;
+#subscribe > input {
     background-color: white;
     border: 0.5px solid black;
     height: 3em;
@@ -429,6 +436,12 @@ p.curate {
     text-align: left;
     border: 1px solid gray;
     border-radius: 2px;
+}
+
+#subscribe > img {
+  position: absolute;
+  right: 17px;
+  top: 60%;
 }
 
 #ul1, #ul2, .address-div, #subscribe {
