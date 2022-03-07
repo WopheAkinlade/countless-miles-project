@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+nav > img {
+  height: 25px;
+}
+
 .header {
   width: 100%;
   background-image: url(/assets/Rectangle.png);
@@ -70,8 +74,9 @@ nav > p {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   position: relative;
-  top: 40px;
+  top: 30px;
 }
 
 nav > button {
