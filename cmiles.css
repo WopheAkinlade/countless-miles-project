@@ -205,13 +205,17 @@ p.curate {
 }
 
 #green-tag #first{
-  padding-left: 35px;
+  padding-right: 120px;
   font-size: 14px;
 }
 
 #green-tag #second {
   font-size: 14px;
   padding-right: 15px;
+}
+
+#green-tag img {
+  padding-left: 15px;
 }
 
 #profile button {
