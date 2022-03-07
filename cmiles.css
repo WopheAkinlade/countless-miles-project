@@ -235,6 +235,15 @@ p.curate {
   bottom: 5px;
 }
 
+.wavy {
+  background-image: url(/assets/wavy.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 99.2px;
+  width: 100%;
+  background-position: 50%;
+}
+
 .sub-div2 {
   
   display: flex;
