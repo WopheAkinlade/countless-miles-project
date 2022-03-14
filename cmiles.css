@@ -116,6 +116,11 @@ nav > button {
   margin-bottom: 0px;
 }
 
+#big-flexbox {
+  display: flex; 
+  flex-direction: row;
+}
+
 #green-button {
   background-color: #039785;
   color: #fff;
@@ -411,8 +416,12 @@ p.curate {
 .svg-div {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin-top: 100px;
+}
+
+.svg-div img {
+  width: 50px;
 }
 
 .contact-us-div > p {
@@ -421,6 +430,12 @@ p.curate {
   color: rgb(104, 103, 103);
   text-align: center;
   font-size: 14px;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
 }
 
 #subscribe > p > a {
@@ -444,6 +459,73 @@ p.curate {
   top: 60%;
 }
 
+
 #ul1, #ul2, .address-div, #subscribe {
     box-sizing: inherit;
+}
+
+@media(max-width: 768px) {
+  nav {
+    display: block;
+  }
+  nav > p {
+    margin-bottom: 60px;
+  }
+  #big-flexbox {
+    flex-direction: column;
+  }
+
+  #flexbox2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #experiences {
+    display: block;
+    margin: auto;
+    width: fit-content;
+  }
+  #exp-box {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .review-footer {
+    display: none;
+  }
+
+  #text-div {
+    width: 35ex;
+  }
+
+  .about-us-div {
+    display: block;
+  }
+
+  .footer-lists {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .svg-div {
+    width: 30%;
+  }
+}
+
+@media(max-width: 425px){
+  #flexbox2 {
+    display: block;
+  }
+
+  .img-box {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  #centred-div {
+    display: block;
+  }
+
+  .footer-lists {
+    display: block;
+  }
 }
