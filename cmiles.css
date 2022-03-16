@@ -477,6 +477,11 @@ p.curate {
   nav > p {
     margin-bottom: 60px;
   }
+  
+  .head-div {
+    height: 700px;
+  }
+
   #big-flexbox {
     flex-direction: column;
   }
