@@ -14,15 +14,19 @@ nav > img {
   background-size: cover;
 }
 
-nav > h1 {
-  font-size:35px;
-  position: relative;
-  bottom: 15px;
-}
-
 nav > p {
   font-size: 17px;
   font-weight: 400;
+}
+
+nav > ul, nav a {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  width: 120px;
+  justify-content: space-evenly;
+  font-size: 18px;
 }
 
 .head-div {
@@ -81,7 +85,7 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   position: relative;
-  top: 30px;
+  top: 17px;
 }
 
 nav > button {
@@ -456,7 +460,7 @@ p.curate {
 #subscribe > img {
   position: absolute;
   right: 17px;
-  top: 60%;
+  top: 56%;
 }
 
 
