@@ -34,9 +34,10 @@ nav > ul, nav a {
   /*used to center the forepage*/
   width: 90%;
   margin: auto;
+  height: 650px;
 }
 
-.head-div > h2 {
+.head-div  h2 {
   position: relative;
   left: 45px;
   top: 30px;
@@ -455,6 +456,7 @@ p.curate {
     text-align: left;
     border: 1px solid gray;
     border-radius: 2px;
+    padding-left: 13px;
 }
 
 #subscribe > img {
