@@ -238,7 +238,7 @@ p.curate {
 #exp-box {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 50%;
   margin-right: 30px;
   box-shadow: 0 4px 10px rgb(0 0 0 / 7%);
 } 
@@ -247,6 +247,11 @@ p.curate {
   padding: 10px; 
   display: flex;
   justify-content: space-between;
+}
+
+.exp-container {
+  display: flex;
+  width: 50%;
 }
 
 #green-tag {
@@ -516,12 +521,22 @@ p.curate {
   .page-container{
     overflow-x: hidden;
   }
+
   nav {
     display: flex;
     flex-direction: column;
   }
   nav > p {
     margin-bottom: 60px;
+  }
+  
+  nav button {
+    margin-top: 20px;
+  }
+
+  .dropdown {
+    position: relative;
+    bottom: 50px;
   }
   
   .head-div {
@@ -541,8 +556,8 @@ p.curate {
     display: block;
   }
 
-  .dropdown:hover .head-div {
-    height: 720px;
+  .drop-items a:hover {
+    
   }
 
   #big-flexbox {
@@ -553,17 +568,24 @@ p.curate {
     display: flex;
     flex-wrap: wrap;
   }
+
   #experiences {
-    display: flex;
-    flex: wrap;
-    margin: auto;
-    width: 50%;
+    display: block;    
   }
+
   #exp-box {
     width: 170px;
     margin-bottom: 40px;
   }
 
+  .exp-container {
+    width: 100%;
+  }
+
+  #exp-box {
+    width: 100%;
+  }
+    
   .review-footer {
     display: none;
   }
@@ -592,7 +614,12 @@ p.curate {
   }
 }
 
-@media(max-width: 425px){
+@media(max-width: 426px){
+  .header {
+    height: 740px;
+    background-position: 25%;
+  }
+
   #flexbox2 {
     display: block;
   }
@@ -602,11 +629,25 @@ p.curate {
     width: 80%;
   }
 
+  .exp-container {
+    display: block;
+  }
+
+  #experiences {
+    display: block;
+  }
+
   #centred-div {
     display: block;
   }
 
   .footer-lists {
     display: block;
+  }
+
+  #subscribe  img{
+    position: absolute;
+    left: 255px;
+    top: 209px;
   }
 }
