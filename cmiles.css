@@ -29,12 +29,17 @@ nav > ul, nav a {
   font-size: 18px;
 }
 
+nav > ul > li:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
 .head-div {
   color: white;
   /*used to center the forepage*/
   width: 90%;
   margin: auto;
-  height: 650px;
+  height: 700px;
 }
 
 .head-div  h2 {
@@ -98,6 +103,43 @@ nav > button {
   color: white;
   border: solid 1px white;
   border-radius: 2px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropbtn {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+}
+
+.blackbar {
+  height: 7px;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  background-color: #039785;
+}
+
+.drop-items {
+  margin-top: 0px;
+  background-color: whitesmoke;
+  color: gray;
+  width: 80px;
+  list-style: none;
+  font-size: 16px;
+  display: none;
+}
+
+.drop-items > a {
+  text-decoration: none;
+  color: gray;
 }
 
 #whitebox {
@@ -471,8 +513,12 @@ p.curate {
 }
 
 @media(max-width: 768px) {
+  .page-container{
+    overflow-x: hidden;
+  }
   nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   nav > p {
     margin-bottom: 60px;
@@ -480,6 +526,23 @@ p.curate {
   
   .head-div {
     height: 700px;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+    float: right;
+  }
+
+  .dropdown:hover .drop-items {
+    display: block;
+  }
+
+  .dropdown:hover .head-div {
+    height: 720px;
   }
 
   #big-flexbox {
@@ -491,12 +554,13 @@ p.curate {
     flex-wrap: wrap;
   }
   #experiences {
-    display: block;
+    display: flex;
+    flex: wrap;
     margin: auto;
-    width: fit-content;
+    width: 50%;
   }
   #exp-box {
-    width: 100%;
+    width: 170px;
     margin-bottom: 40px;
   }
 
@@ -519,6 +583,12 @@ p.curate {
 
   .svg-div {
     width: 30%;
+  }
+
+  #subscribe  img{
+    position: absolute;
+    left: 255px;
+    top: 138px;
   }
 }
 
