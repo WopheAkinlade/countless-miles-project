@@ -137,10 +137,12 @@ nav > button {
   display: none;
 }
 
-.drop-items > a {
+.drop-items a {
   text-decoration: none;
   color: gray;
 }
+
+
 
 #whitebox {
   height: 8px;
@@ -556,8 +558,8 @@ p.curate {
     display: block;
   }
 
-  .drop-items a:hover {
-    
+  .drop-items li:hover {
+    background-color: #666;
   }
 
   #big-flexbox {
