@@ -404,6 +404,10 @@ p.curate {
   height: 140px;
 }
 
+.play-button img:hover {
+  cursor: pointer;
+}
+
 #img-div .white-circle {
   display: flex;
   align-items: center;
@@ -620,6 +624,10 @@ p.curate {
   .header {
     height: 740px;
     background-position: 25%;
+  }
+
+  #h1-change {
+    display: inline;
   }
 
   #flexbox2 {
