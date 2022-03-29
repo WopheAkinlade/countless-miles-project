@@ -107,6 +107,7 @@ nav > button {
 
 .dropdown {
   display: none;
+  position: relative;
   width: 70px;
 }
 
@@ -615,12 +616,19 @@ p.curate {
 
   .svg-div {
     width: 30%;
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 
   #subscribe  img{
     position: absolute;
     left: 255px;
-    top: 138px;
+    top: 105px;
+  }
+
+  #subscribe h5, #subscribe p{
+    margin-left: 34px;
+    width: 180%;
   }
 }
 
@@ -662,6 +670,11 @@ p.curate {
   #subscribe  img{
     position: absolute;
     left: 255px;
-    top: 209px;
+    top: 105px;
+  }
+
+  #subscribe h5, #subscribe p{
+    margin-left: 34px;
+    width: 250%;
   }
 }
