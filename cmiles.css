@@ -113,7 +113,7 @@ nav > button {
 #dropbtn {
   background-color: white;
   height: 40px;
-  width: 80%;
+  width: 75%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -132,8 +132,7 @@ nav > button {
 
 .drop-items {
   margin-top: 0px;
-  background-color: rgba(255, 255, 255, 0.6);
-  margin-left: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
   list-style: none;
   font-size: 16px;
   display: none;
@@ -142,7 +141,7 @@ nav > button {
 
 .drop-items a {
   text-decoration: none;
-  color: #039785;
+  color: #04685c;
 }
 
 .drop-items a:hover {
