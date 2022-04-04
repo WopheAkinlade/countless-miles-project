@@ -29,11 +29,6 @@ nav > ul, nav a {
   font-size: 18px;
 }
 
-nav > ul > li:hover {
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
 .head-div {
   color: white;
   /*used to center the forepage*/
@@ -60,7 +55,7 @@ nav > ul > li:hover {
   top: 23px;
   width: 50px;
   height: 0.2px;
-  border: 3px solid#039785;
+  border: 3px solid #039785;
 }
 
 #whiteone {
