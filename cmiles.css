@@ -19,7 +19,7 @@ nav > p {
   font-weight: 400;
 }
 
-nav > ul, nav a {
+nav > ul, .nav-links {
   text-decoration: none;
   color: #fff;
   list-style: none;
@@ -77,6 +77,11 @@ nav > ul, nav a {
   margin-left: 3px;
 }
 
+#white-button:hover{
+  background-color: lightgray;
+  color: white;
+}
+
 #header-box > p {
   font-size: larger;
 }
@@ -89,7 +94,7 @@ nav {
   top: 17px;
 }
 
-nav > button {
+nav button {
   background-color: transparent;
   height: 7.5ex;
   width: 180px;
@@ -100,7 +105,7 @@ nav > button {
   border-radius: 2px;
 }
 
-nav > button:hover {
+nav button:hover {
   background-color: white;
   color: #039785;
   border: 2px solid #039785 ;
@@ -161,6 +166,10 @@ nav > button:hover {
   height: 8px;
   background-color: white;
   width: 50px;
+}
+
+.head-div button:hover {
+  cursor: pointer;
 }
 
 .body-div1 {
