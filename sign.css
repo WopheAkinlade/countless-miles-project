@@ -1,47 +1,70 @@
 body {
-    background-color: #039785;
-  }
-  nav {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    margin-top: 50px;
-  }
-  h1 {
-    color: white;
-    margin-left: 280px;
-    margin-bottom: 43px;
-  }
-  .pages {
-    color: white;
-    width: 60%;
-    margin-left: 280px;
-  }
-  .input {
-    margin-top: 10px;
-    display: block;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 2px;
-    height: 40px;
-    width: 100%;
-    padding-left: 10px;
-    color: white;
-    margin-bottom: 30px;
-  }
-  #page-4 select{
-    width: 30%;
-  }
+  background-color: #039785;
+}
 
-  #page-4  option {
-    color: black;
-  }
-  #gray-text {
-    margin-right: 20px;
-    color: rgb(183, 180, 180);
-  }
-  .nav-links {
-    width: 894px;
-    margin: auto;
-  }
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+  margin-left: 280px;
+  margin-bottom: 43px;
+}
+
+.pages {
+  color: white;
+  width: 60%;
+  margin-left: 280px;
+}
+
+.input {
+  margin-top: 10px;
+  display: block;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  color: white;
+  margin-bottom: 30px;
+}
+fieldset {
+  border: none;
+}
+#page-4 select {
+  width: 30%;
+}
+
+#page-4 option {
+  color: black;
+}
+
+#gray-text {
+  margin-right: 20px;
+  color: rgb(183, 180, 180);
+}
+
+.nav-links {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links > button {
+  border: 1px solid;
+  height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+.nav-links > button:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 8px;
+}

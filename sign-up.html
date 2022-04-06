@@ -5,37 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get Access</title>
-    <link rel="stylesheet" href="./sign.css">
+    <link rel="stylesheet" href="./sign.css" />
   </head>
   <body>
-      <nav>
-        <img src="./assets/countlessmiles.svg" alt="" style="height: 25px;">
-        <a href="./countlessmiles.html"><img src="./assets/cancel.svg" alt=""></a> 
-      </nav>
-      <h1>Get Early Access</h1>
+    <nav>
+      <img src="./assets/countlessmiles.svg" alt="" style="height: 25px" />
+      <a href="./countlessmiles.html"
+        ><img src="./assets/cancel.svg" alt=""
+      /></a>
+    </nav>
+    <h1>Get Early Access</h1>
+    <form action="">
       <div id="page-1" class="pages">
-        <form action="">
+        <fieldset action="">
           <label for="fullname">Tell us your name</label>
-          <input type="text" id="fullname" class="input">
-        </form>
+          <input type="text" id="fullname" class="input" />
+        </fieldset>
       </div>
 
       <div id="page-2" class="pages">
-        <form action="">
+        <fieldset action="">
           <label for="email">Your Email Address</label>
-          <input type="email" id="email" class="input">
-        </form>
+          <input type="email" id="email" class="input" />
+        </fieldset>
       </div>
 
       <div id="page-3" class="pages">
-        <form action="">
+        <fieldset action="">
           <label for="location">Your Location</label>
-          <input type="text" id="location" class="input">
-        </form>
+          <input type="text" id="location" class="input" />
+        </fieldset>
       </div>
 
       <div id="page-4" class="pages">
-        <form action="">
+        <fieldset action="">
           <label for="preference">Your Travel Preference</label>
           <select name="preference" id="preference" class="input">
             <option value="boat">Boat</option>
@@ -43,13 +46,13 @@
             <option value="cruise">Cruise Ship</option>
             <option value="train">Train</option>
           </select>
-        </form>
+        </fieldset>
       </div>
-
-      <div class="nav-links">
-        <a href="#" style="color: white;"><p style="float: right;">NEXT</p></a>
-        <a href="#" style="color: white;"><p id="gray-text" style="float: right;">BACK</p></a>
-      </div>
-      <script src="./sign.js"></script>
+    </form>
+    <div class="nav-links">
+      <button>NEXT</button>
+      <button>BACK</button>
+    </div>
+    <script src="./sign.js"></script>
   </body>
 </html>
