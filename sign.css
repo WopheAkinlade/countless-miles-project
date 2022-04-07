@@ -22,6 +22,10 @@ h1 {
   margin-left: 280px;
 }
 
+.no-show {
+  display: none;
+}
+
 .input {
   margin-top: 10px;
   display: block;
@@ -68,3 +72,4 @@ fieldset {
   cursor: pointer;
   box-shadow: 1px 1px 8px;
 }
+

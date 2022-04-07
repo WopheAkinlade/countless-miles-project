@@ -2,4 +2,9 @@ var first = document.getElementById("page-1"); second = document.getElementById(
 
 const slides = [first, second, third, fourth];
 
-// console.log(slides)
+const nextSlide = (x) => {
+    x.classList.remove("no-show")
+    console.log("Hi")
+}
+
+console.log(slides[2])
