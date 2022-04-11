@@ -50,8 +50,8 @@
       </div>
     </form>
     <div class="nav-links">
-      <button onclick="nextSlide(slides[2])">NEXT</button>
-      <button>BACK</button>
+      <button id="next" onclick="nextSlide(slides[count], slides[prev])">NEXT</button>
+      <button onclick="prevSlide(slides[count], slides[prev])">BACK</button>
     </div>
     <script src="./sign.js"></script>
   </body>
