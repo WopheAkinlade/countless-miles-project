@@ -14,26 +14,26 @@
         ><img src="./assets/cancel.svg" alt=""
       /></a>
     </nav>
-    <h1>Get Early Access</h1>
+    <h1 id="title">Get Early Access</h1>
     <form action="">
       <div id="page-1" class="pages">
         <fieldset action="">
           <label for="fullname">Tell us your name</label>
-          <input type="text" id="fullname" class="input" />
+          <input type="text" id="fullname" class="input" required/>
         </fieldset>
       </div>
 
       <div id="page-2" class="pages no-show">
         <fieldset action="">
           <label for="email">Your Email Address</label>
-          <input type="email" id="email" class="input" />
+          <input type="email" id="email" class="input" required/>
         </fieldset>
       </div>
 
       <div id="page-3" class="pages no-show">
         <fieldset action="">
           <label for="location">Your Location</label>
-          <input type="text" id="location" class="input" />
+          <input type="text" id="location" class="input" required/>
         </fieldset>
       </div>
 
@@ -48,8 +48,9 @@
           </select>
         </fieldset>
       </div>
+      <input type="submit" id="submit" class="no-show" value="SUBMIT">
     </form>
-    <div class="nav-links">
+    <div id="buttons" class="nav-links">
       <button id="next" onclick="nextSlide(slides[count], slides[prev])">NEXT</button>
       <button onclick="prevSlide(slides[count - 1], slides[prev - 1])">BACK</button>
     </div>
