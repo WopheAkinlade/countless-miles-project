@@ -20,6 +20,11 @@ nav {
   color: white;
   width: 60%;
   margin-left: 280px;
+  animation: slideLeft 0.7s 1;
+}
+
+.animate {
+  animation: slideLeft 0.7s 1;
 }
 
 .input {
@@ -88,3 +93,11 @@ fieldset {
   display: none;
 }
 
+@keyframes slideLeft{
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 280px;
+  }
+}
