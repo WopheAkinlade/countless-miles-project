@@ -35,10 +35,6 @@ nav {
   margin-bottom: 30px;
 }
 
-.input:focus {
-  background-color: transparent;
-}
-
 fieldset {
   border: none;
 }
@@ -71,6 +67,7 @@ fieldset {
 }
 .nav-links > button:hover{
   cursor: pointer;
+  transition: .1s;
   box-shadow: 1px 1px 8px;
 }
 
@@ -90,3 +87,4 @@ fieldset {
 .no-show {
   display: none;
 }
+
