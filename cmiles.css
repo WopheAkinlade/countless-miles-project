@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 nav > img {
   height: 25px;
 }
@@ -27,6 +31,10 @@ nav > ul, .nav-links {
   width: 120px;
   justify-content: space-evenly;
   font-size: 18px;
+}
+
+.nav-links:hover{
+  text-decoration: underline;
 }
 
 .head-div {
